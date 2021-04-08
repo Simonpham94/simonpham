@@ -627,6 +627,10 @@ main section:not(.jumbotron) > * {
     padding: 5px 10px;
     margin: 10px 10px 10px 0;
   }
+
+  .btn-container a {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 350px) {
