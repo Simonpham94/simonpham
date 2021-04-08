@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Simon Pham</title>
+  </head>
+  <body class="bg-dark" data-bs-spy="scroll" >
+    <div class="wrapper" >
+      <div class="page-border left bg-dark social-media">
+        <ul>
+          <li class="mb-2">
+            <a href="https://twitter.com/imsimonpham" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.instagram.com/simonthefrontender/?hl=vi" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.linkedin.com/in/simompham/" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li class="mb-2">
+            <a href="mailto:simonpham.webdev@gmail.com" target="_blank"
+              ><i class="far fa-envelope"></i></a>
+          </li>
+          <li class="mb-2">
+            <a href="https://github.com/Simonpham94" target="_blank"
+              ><i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-border right bg-dark">
+        <ul class="dot-scroll" id="dot-scroll">
+          <li>
+            <a href="#jumbotron" id="jumbotron-dot" ><span></span></a>
+          </li>
+          <li>
+            <a href="#projects" id="projects-dot"><span></span></a>
+          </li>
+          <li>
+            <a href="#about" id="about-dot"><span></span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-border bottom bg-dark">
+        <a href="#" id="back-to-top">
+          to
+          <span>top</span>
+        </a>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo/logo-gold.png" alt="" class="img-logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="burger" id="burger">
+              <div class="line1"></div>
+              <div class="line2 short"></div>
+              <div class="line3 short"></div>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse menu-container" id="navbarText">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#jumbotron" id="jumbotron-link">Home</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#projects" id="projects-link">Projects</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#about" id="about-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:simonpham.webdev@gmail.com" target="_blank" id="contact-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section class="jumbotron" id="jumbotron">
+          <div class="img-container"></div>
+          <div class="jumbotron-text">
+            <h2 class="text-white display-1">HI, I'M</h2>
+            <h1 class="text-white display-1 mb-3">
+              <span class="bold">S</span><span class="thin">IMON</span>
+              <span class="bold">P</span><span class="thin">HAM</span>
+            </h1>
+            <h3 class="lead display-5">
+              <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+            </h3>
+            <a href="" class="btn btn-customized btn-view-lg m-5">
+              View My Work
+            </a>
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <h1 class="display-1 mb-5 heading">MY WORK</h1>
+          <h6 class="heading-text mb-5 px-4">
+            Here are some of my favourite projects that I have built.
+          </h6>
+          <div class="grid">
+            <div class="card">
+              <img src="img/projects/montblanc.jpg" alt="project" />
+              <div class="card-info">
+                <h4>The MontBlanc</h4>
+                <div class="btn-container">
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Project</a
+                  >
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/projects/meal finder.jpg" alt="project" />
+              <div class="card-info">
+                <h4>Meal Finder</h4>
+                <div class="btn-container">
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Project</a
+                  >
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/projects/simon's garden.jpg" alt="project" />
+              <div class="card-info">
+                <h4>Simon's Garden</h4>
+                <div class="btn-container">
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Project</a
+                  >
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/projects/guessing game.jpg" alt="project" />
+              <div class="card-info">
+                <h4>Guessing Game</h4>
+                <div class="btn-container">
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Project</a
+                  >
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/projects/dashboard.jpg" alt="project" />
+              <div class="card-info">
+                <h4>Dashboard</h4>
+                <div class="btn-container">
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Project</a
+                  >
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/projects/simon's gallery.jpg" alt="project" />
+              <div class="card-info">
+                <h4>Simon's Gallery</h4>
+                <div class="btn-container">
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Project</a
+                  >
+                  <a href="" class="btn btn-customized btn-view-sm"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h1 class="display-1 mb-5 heading">ABOUT ME</h1>
+          <div class="about-info">
+            <div class="about-text px-5 p">
+              <h6 class="heading-text mb-5 max-width text-start">
+                I'm a Front-end Web Developer located in Canada who has passion for creating <span class="hightlight">functional</span> and <span class="hightlight">clean</span> websites. 
+                I value <span class="hightlight">simple</span> content structure, <span class="hightlight">minimalist</span> design patterns, and <span class="hightlight">thoughtful</span> interations. 
+              </h6>
+              <h6 class="heading-text mb-5 max-width text-start">
+               Also, I'm a <span class="hightlight">well-organized </span>person, a <span class="hightlight">problem solver </span> and a <span class="hightlight">team player</span> with <span class="hightlight">attention to details</span>.
+              </h6>
+            </div>
+            
+            <div class="about-skills">
+              <h3>WHAT I'M GOOD AT:</h3>
+              <div class="tag-cloud" id="tagcloud">
+                <ul>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">jQuery</a></li>
+                  <li><a href="#">SASS</a></li>
+                  <li><a href="#">JSON</a></li>
+                </ul>
+              </div>
+              <div class="tag-collection my-5">
+                <span class="hightlight">HTML</span>
+                <span class="hightlight">CSS </span>
+                <span class="hightlight">JavaScript</span>
+                <span class="hightlight">Bootstrap</span>
+                <span class="hightlight">jQuery</span>
+                <span class="hightlight">SASS</span>
+                <span class="hightlight">JSON</span>
+              </div>
+          </div>
+        
+         
+        </section>
+      </main>
+      
+        <footer class="footer my-4" id="footer">
+          <p>Copyright &copy; <span id="year"></span> by Simon Pham</p>   
+        </footer>
+      
+      
+    </div>
+    <!-- Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tag Cloud -->
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://rawgithub.com/dynamicguy/tagcloud/master/src/tagcloud.jquery.js"
+    ></script>
+    <!-- Custom JS -->
+    <!-- <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
