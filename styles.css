@@ -34,7 +34,7 @@ body {
 
 .heading {
   font-weight: 900;
-  text-shadow: 4px 0 var(--color-sedondary);
+  text-shadow: 3px 0 var(--color-sedondary);
   color: var(--color-sedondary);
   text-align: center;
 }
@@ -295,7 +295,7 @@ main section:not(.jumbotron) > * {
 
 .bold {
   font-weight: 900;
-  text-shadow: 5px 0 var(--color-sedondary);
+  text-shadow: 4px 0 var(--color-sedondary);
   color: var(--color-sedondary);
 }
 
