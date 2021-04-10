@@ -399,6 +399,10 @@ main section:not(.jumbotron) > * {
   display: flex;
 }
 
+.btn-container a {
+  font-size: 14px;
+}
+
 .btn-view-sm {
   width: 120px;
   height: 40px;
@@ -626,10 +630,6 @@ main section:not(.jumbotron) > * {
     border: 1px solid var(--color-sedondary);
     padding: 5px 10px;
     margin: 10px 10px 10px 0;
-  }
-
-  .btn-container a {
-    font-size: 14px;
   }
 }
 
