@@ -145,3 +145,22 @@ if(smallScreenSize.matches) {
 
 // Get the current year for the copyright
 $('#year').text(new Date().getFullYear());
+
+//smooth scrolling
+$('#nav li a').on('click', function(e) {
+  if(this.hash !== '') {
+      e.preventDefault();
+      const hash = this.hash; 
+      $('html, body').animate({
+          scrollTop: $(hash).offset().top
+      }, 800);
+  }
+})
+
+$('#back-to-top').on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+  scrollTop: 0
+  }, 800);
+  
+})
