@@ -21,10 +21,6 @@ const jumbotronDot = $('#jumbotron-dot');
 const projectsDot = $('#projects-dot');
 const aboutDot = $('#about-dot');
 
-
-
-
-
 //functions
 
 function type() {
