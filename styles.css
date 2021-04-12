@@ -325,6 +325,16 @@ main section:not(.jumbotron) > * {
   color: var(--color-primary);
 }
 
+.btn-container-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container-lg a:first-of-type {
+  margin-right: 15px;
+}
+
 /* projects */
 
 .projects {
@@ -630,6 +640,19 @@ main section:not(.jumbotron) > * {
     border: 1px solid var(--color-sedondary);
     padding: 5px 10px;
     margin: 10px 10px 10px 0;
+  }
+
+  .btn-container-lg {
+    flex-direction: column;
+  }
+
+  .btn-container-lg button {
+    margin: 0 0 15px 0 !important;
+  }
+
+  .btn-container-lg a:first-of-type {
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 }
 
